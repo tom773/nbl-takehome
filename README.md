@@ -44,7 +44,7 @@ This project is a simple web application that pulls data from the [Dummy API](ht
 ### To-Do Before Sunday
 * [x] Implement the basic requirements - (fetching data, displaying it, and routing)
 * [x] Add a shopping cart - (state management)
-* [ ] Add unit - (Testing)
+* [ ] Add unit testing - (Testing)
 * [x] Add useful, not overly verbose comments - (Documentation)
 * [ ] Optimize for Mobile - (UI/UX)
 * [ ] ARIA Roles & Keyboard Navigation - (Accessibility)
