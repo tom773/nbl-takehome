@@ -1,38 +1,29 @@
-# create-svelte
+# Take Home Assignment for NBL Graduate role
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Setup
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+1. Clone the repository
+```
+$ git clone git@github.com:tom773/nbl-takehome.git
+$ cd nbl-takehome
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+2. Install the dependencies
+```
+npm install
+```
+3. Run it
+```
+npm run dev --open
 ```
 
-## Building
+## Project Details
 
-To create a production version of your app:
+This project is a simple web application that pulls data from the [Dummy API](https://dummyjson.com/products), displays the first 10 results on the home page, then allows the user to click on a product to view more details.
 
-```bash
-npm run build
-```
+### Key Technologies Used
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+* [Svelte & SvelteKit](https://github.com/sveltejs) - Frontend framework
+* TypeScript - Business Logic Language
+* [TailwindCSS](https://github.com/tailwindlabs/tailwindcss) - CSS Framework
+* [Shadcn-Svelte](https://github.com/huntabyte/shadcn-svelte) - Amazing port of the Shadcn-ui library to Svelte
