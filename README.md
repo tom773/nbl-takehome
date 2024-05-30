@@ -1,4 +1,4 @@
-# Take Home Assignment for NBL Graduate role
+# Take Home Assignment Readme
 
 ## Setup
 
@@ -27,3 +27,26 @@ This project is a simple web application that pulls data from the [Dummy API](ht
 * TypeScript - Business Logic Language
 * [TailwindCSS](https://github.com/tailwindlabs/tailwindcss) - CSS Framework
 * [Shadcn-Svelte](https://github.com/huntabyte/shadcn-svelte) - Amazing port of the Shadcn-ui library to Svelte
+
+### Features
+
+* Home Page
+    * Displays the first 10 products from the Dummy API
+    * Clicking "details" will take you to the product details page, the slug for which is the products SKU
+* Product Details Page
+    * Displays the product details for the product with the SKU in the URL
+    * Details include basics like name, price, image, and description
+    * There is some functionality for changing the styling based on stock levels.
+    * Clicking "<-" will take you back to the home page
+* Site Wide Features
+    * Reactive Shopping Cart, using svelte stores - this is something I added on top of the requirements to demonstrate advanced state management
+
+### To-Do Before Sunday
+* [x] Implement the basic requirements - (fetching data, displaying it, and routing)
+* [x] Add a shopping cart - (state management)
+* [ ] Add unit-testing - (Testing)
+* [x] Add useful, not overly verbose comments - (Documentation)
+* [ ] Optimize for Mobile - (UI/UX)
+* [ ] ARIA Roles & Keyboard Navigation - (Accessibility)
+* [ ] Deploy to Digital Ocean - (Deployment)
+* [ ] Implement ii18n - (Internationalization)
