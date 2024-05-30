@@ -27,7 +27,7 @@
         <DropdownMenu.Root>
             <DropdownMenu.Trigger>
                 <div class="flex p-5">
-                    <ShoppingCart class="cursor-pointer hover:text-gray-400 h-8 w-8"/><span class="flex items-center justify-center rounded-full bg-red-400 h-4 w-4 text-xs">{ totalItems }</span>
+                    <ShoppingCart class="cursor-pointer hover:text-gray-400 h-8 w-8"/><span data-testid="dropdown" class="flex items-center justify-center rounded-full bg-red-400 h-4 w-4 text-xs">{ totalItems }</span>
                 </div>
             </DropdownMenu.Trigger>
             <DropdownMenu.Content>

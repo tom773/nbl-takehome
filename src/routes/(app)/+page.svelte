@@ -12,7 +12,7 @@
             <Carousel.Content class="flex -ml-[-1] lg:-ml-[-4]">
                 {#each data.items.products as product}
                     <Carousel.Item class="md:basis-1/2 lg:basis-1/3 pl-1 lg:pl-4 flex-shrink-0">
-                        <Product product={product} />
+                        <Product product={product}/>
                     </Carousel.Item>
                 {/each}
             </Carousel.Content>

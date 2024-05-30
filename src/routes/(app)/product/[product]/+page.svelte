@@ -29,20 +29,20 @@
         <div>
             <Card.Header class="flex flex-row">
                 <div class="flex items-start justify-center flex-col">
-                    <p class="text-4xl text-left font-bold">{product.title}</p>
-                    <p class="text-left text-gray-700">{product.description}</p>
+                    <p data-testid="title" class="text-4xl text-left font-bold">{product.title}</p>
+                    <p data-testid="desc" class="text-left text-gray-700">{product.description}</p>
                 </div>
             </Card.Header>
             <Card.Content>
-                <p class="text-lg font-semibold mt-2">${product.price}</p>
+                <p data-testid="price" class="text-lg font-semibold mt-2">${product.price}</p>
                 {#if product.discountPercentage > 0}
                     <Badge class="bg-green-200 hover:bg-green-200 text-gray-800 mt-1">-{product.discountPercentage}%</Badge>
                 {/if}
                 <div class="mt-2">
-                    <span class="font-bold text-gray-800">Brand:</span> {product.brand}
+                    <span data-testid="brand" class="font-bold text-gray-800">Brand:</span> {product.brand}
                 </div>
                 <div class="mt-2">
-                    <span class="font-bold text-gray-800">Category:</span> {product.category}
+                    <span data-testid="cat" class="font-bold text-gray-800">Category:</span> {product.category}
                 </div>
                 <div class="mt-2">
                     <span class="font-bold text-gray-800">Availability:</span> 
