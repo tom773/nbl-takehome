@@ -1,3 +1,6 @@
+// First dive into E2E testing with Playwright. Similar workflow to Selenium, which I used to use back in high school,
+// when I thought chromium was the same as chrome.
+
 import { test, expect } from '@playwright/test';
 
 test.describe('Details Page', () => {
