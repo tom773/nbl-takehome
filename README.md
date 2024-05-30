@@ -10,15 +10,16 @@ $ cd nbl-takehome
 
 2. Install the dependencies
 ```
-npm install
+$ npm install
 ```
 3. Run it
 ```
-npm run dev --open
+$ npm run dev --open
 ```
 4. Optionally, run the tests I've written.
 ```
-npx run test
+$ npx playwright install
+$ npx playwright test 
 ```
 ## Project Details
 
