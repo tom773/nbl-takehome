@@ -23,7 +23,7 @@ This project is a simple web application that pulls data from the [Dummy API](ht
 
 ### Key Technologies Used
 
-* [Svelte & SvelteKit](https://github.com/sveltejs) - Frontend framework
+* [Svelte & SvelteKit](https://github.com/sveltejs) - Frontend, Server Side Rendering, and Routing Framework
 * TypeScript - Business Logic Language
 * [TailwindCSS](https://github.com/tailwindlabs/tailwindcss) - CSS Framework
 * [Shadcn-Svelte](https://github.com/huntabyte/shadcn-svelte) - Amazing port of the Shadcn-ui library to Svelte
