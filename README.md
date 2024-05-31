@@ -48,7 +48,7 @@ This project is a simple web application that pulls data from the [Dummy API](ht
 * [x] Implement the basic requirements - (fetching data, displaying it, and routing)
 * [x] Add a shopping cart - (state management)
 * [x] Add basic testing - (Testing)
-* [ ] Add more advanced testing of the state management - (Testing)
+* [x] Add more advanced testing of the state management - (Testing)
 * [x] Add useful, not overly verbose comments - (Documentation)
 * [ ] Optimize for Mobile - (UI/UX)
 * [ ] ARIA Roles & Keyboard Navigation - (Accessibility) 
