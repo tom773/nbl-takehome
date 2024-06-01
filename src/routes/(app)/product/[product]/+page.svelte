@@ -77,9 +77,9 @@
         </div>
         <div class="flex justify-between items-center lg:py-0 py-2 h-full flex-col">
             {#if product.sku == "DZM2JQZE"}
-                <img src={product.images[1]} alt={product.title} class="w-2/3 hidden lg:flex h-full"/>
+                <img src={product.images[1]} alt={product.title} class="w-1/2 hidden lg:flex h-full"/>
             {:else}
-                <img src={product.images[0]} alt={product.title} class="w-full hidden lg:flex h-full"/>
+                <img src={product.images[0]} alt={product.title} class="w-1/2 hidden lg:flex h-full"/>
             {/if}
             {#if product.availabilityStatus != 0}
                 <Button on:click={()=>addToCart(product)} class="w-1/2 self">Add to Cart</Button>
